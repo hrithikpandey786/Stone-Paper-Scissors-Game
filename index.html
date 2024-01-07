@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissors Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h2>Stone Paper Scissors</h2>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="Rock">
+            <img src="Images/rock.png">
+        </div>
+        <div class="choice" id="Paper">
+            <img src="Images/paper.png">
+        </div>
+        <div class="choice" id="Scissors">
+            <img src="Images/scissors.png">
+        </div>
+    </div>
+
+    <div class="score-board">
+        <div class="userScoreSection">
+            <div id="userScore">0</div>
+            <p>You</p>
+        </div>
+        <div class="compScoreSection">
+            <div id="compScore">0</div>
+            <p>Comp</p>
+        </div>
+    </div>
+
+    <div class="mssg-Container">
+        <p id="mssg">Play Your Move!</p>
+    </div>
+
+    <div class="rst-mssg-Container">
+        <p id="rstMssg">Reset</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #D9EDBF;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+    background-color: #176B87;
+}
+
+.heading h2{
+    color: white;
+    font-family: 'Indie Flower';
+    font-size: 2.5rem;
+}
+
+.choices{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+img:hover{
+    opacity: 40%;
+    cursor: pointer;
+}
+
+img{
+    height: 7rem;
+    width: 7rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.score-board{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.score-board p{
+    font-size: 3rem;
+}
+
+.userScoreSection, .compScoreSection{
+    text-align: center;
+    font-family: 'Indie Flower';
+    line-height: 300%;
+}
+
+#userScore{
+    font-size: 4rem;
+}
+
+#compScore{
+    font-size: 4rem;
+}
+
+.mssg-Container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mssg, #rstMssg{
+    font-size: 1.8rem;
+    font-family: 'Indie Flower';
+    background-color: #081b31;
+    color: white;
+    border-radius: 4px;
+    padding: 0.2rem;
+}
+
+#mssg:hover, #rstMssg:hover{
+    cursor: pointer;
+}
+
+.rst-mssg-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
